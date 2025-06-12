@@ -25,7 +25,7 @@ A modern, fully customizable React timeline component built with Vite. Features 
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd responsive-timeline
+cd aldeia-manaka
 
 # Install dependencies
 npm install
@@ -319,8 +319,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) 
 ## 📞 Support
 
 - 📧 Email: your-email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/your-username/responsive-timeline/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/your-username/responsive-timeline/discussions)
+- 🐛 Issues: [GitHub Issues](https://github.com/luandro/aldeia-manaka/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/luandro/aldeia-manaka/discussions)
 
 ## 🚀 Quick Customization Examples
 
