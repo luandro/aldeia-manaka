@@ -26,14 +26,6 @@
       "status": "Pendente"
     },
     {
-      "id": "responsavel-juridico",
-      "title": "Responsável Jurídico/Fundiário",
-      "responsibilities": "Verificação de documentação da terra, limites legais, articulação com FUNAI",
-      "profile": "Advogado com experiência em questões fundiárias e direito indígena",
-      "image": "https://picsum.photos/300/200?random=4",
-      "status": "Pendente"
-    },
-    {
       "id": "coordenador-infraestrutura",
       "title": "Coordenador de Infraestrutura",
       "responsibilities": "Planejamento e execução de obras de infraestrutura (água, estrada, energia)",

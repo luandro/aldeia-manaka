@@ -54,7 +54,20 @@ const HeroSection = ({ project = {} }) => {
           <p className="hero-celebration">{project.celebration || 'Celebração em memória'}</p>
           <p className="hero-description">{project.description || 'Um projeto dedicado à criação de uma aldeia multi-étnica.'}</p>
           <div className="hero-cta">
-            <button className="hero-button">Saiba Mais</button>
+            <button
+              className="hero-button"
+              onClick={() => {
+                const nextSection = document.getElementById('teams-section');
+                if (nextSection) {
+                  nextSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                  });
+                }
+              }}
+            >
+              Saiba Mais
+            </button>
           </div>
         </div>
       </div>

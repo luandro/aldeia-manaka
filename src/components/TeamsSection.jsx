@@ -82,9 +82,9 @@ const TeamMember = ({ team = {}, index }) => {
 
 const TeamsSection = ({ teams = [] }) => {
   return (
-    <section className="teams-section">
+    <section id="teams-section" className="teams-section">
       <div className="container">
-        <h2 className="section-title">Equipe do Projeto - Papéis Necessários</h2>
+        <h2 className="section-title">Equipe do Projeto</h2>
         <div className="teams-timeline">
           {teams.length > 0 ? (
             teams.map((team, index) => (

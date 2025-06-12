@@ -839,7 +839,7 @@ body {
   display: inline-block;
   font-size: 0.85rem;
   font-weight: 700;
-  color: #4a7c4e;
+  color: #ffeaa7;
   margin-top: 8px;
   background: rgba(74, 124, 78, 0.1);
   padding: 4px 12px;
@@ -857,7 +857,7 @@ body {
 }
 
 .timeline-item.critical .content {
-  border-left: 6px solid #d9534f;
+  border-left: 6px solid #ffeaa7;
   box-shadow: 0 8px 25px rgba(217, 83, 79, 0.15);
 }
 
