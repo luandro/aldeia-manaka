@@ -11,6 +11,21 @@ const HeroSection = ({ project }) => {
 
   return (
     <section className="hero-section">
+      <div className="hero-background">
+        {imageLoaded && (
+          <img
+            src={project.heroImage}
+            alt="Projeto Aldeia Maiacá"
+            className="hero-bg-img"
+          />
+        )}
+        {!imageLoaded && (
+          <div className="hero-bg-placeholder">
+            <div className="loading-spinner"></div>
+          </div>
+        )}
+        <div className="hero-overlay"></div>
+      </div>
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">{project.title}</h1>
@@ -26,20 +41,9 @@ const HeroSection = ({ project }) => {
           </div>
           <p className="hero-celebration">{project.celebration}</p>
           <p className="hero-description">{project.description}</p>
-        </div>
-        <div className="hero-image">
-          {imageLoaded && (
-            <img 
-              src={project.heroImage} 
-              alt="Projeto Aldeia Maiacá"
-              className="hero-img"
-            />
-          )}
-          {!imageLoaded && (
-            <div className="hero-img-placeholder">
-              <div className="loading-spinner"></div>
-            </div>
-          )}
+          <div className="hero-cta">
+            <button className="hero-button">Saiba Mais</button>
+          </div>
         </div>
       </div>
     </section>

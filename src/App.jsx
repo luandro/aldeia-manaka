@@ -6,6 +6,7 @@ import TeamsSection from './components/TeamsSection'
 import MilestonesTable from './components/MilestonesTable'
 import RisksTable from './components/RisksTable'
 import BudgetSection from './components/BudgetSection'
+import SectionDivider from './components/SectionDivider'
 import aldeiaContent from './data/aldeia-maiaca-content.json'
 import defaultTheme from './data/timeline-config.json'
 import darkTheme from './data/dark-theme-config.json'
@@ -52,10 +53,15 @@ function App() {
         onThemeChange={handleThemeChange}
       />
       <HeroSection project={content.project} />
+      <SectionDivider type="wave" color="#f4f4f4" />
       <TeamsSection teams={content.teams} />
+      <SectionDivider type="curve" color="#ffffff" flip={true} />
       <Timeline config={timelineConfig} />
+      <SectionDivider type="triangle" color="#f4f4f4" />
       <MilestonesTable milestones={content.milestones} />
+      <SectionDivider type="wave" color="#ffffff" flip={true} />
       <RisksTable risks={content.risks} />
+      <SectionDivider type="curve" color="#f4f4f4" />
       <BudgetSection budget={content.budget} />
     </div>
   )

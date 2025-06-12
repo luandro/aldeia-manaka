@@ -11,27 +11,31 @@ const TeamCard = ({ team }) => {
 
   return (
     <div className="team-card">
-      <div className="team-image">
-        {imageLoaded && (
-          <img 
-            src={team.image} 
-            alt={team.title}
-            className="team-img"
-          />
-        )}
-        {!imageLoaded && (
-          <div className="team-img-placeholder">
-            <div className="loading-spinner"></div>
+      <div className="team-header">
+        <div className="team-avatar">
+          {imageLoaded && (
+            <img
+              src={team.image}
+              alt={team.title}
+              className="team-avatar-img"
+            />
+          )}
+          {!imageLoaded && (
+            <div className="team-avatar-placeholder">
+              <div className="loading-spinner"></div>
+            </div>
+          )}
+        </div>
+        <div className="team-info">
+          <h3 className="team-title">{team.title}</h3>
+          <div className="team-status">
+            <span className={`status-badge ${team.status.toLowerCase()}`}>
+              {team.status}
+            </span>
           </div>
-        )}
+        </div>
       </div>
       <div className="team-content">
-        <h3 className="team-title">{team.title}</h3>
-        <div className="team-status">
-          <span className={`status-badge ${team.status.toLowerCase()}`}>
-            {team.status}
-          </span>
-        </div>
         <div className="team-details">
           <div className="team-section">
             <h4>Responsabilidades:</h4>
