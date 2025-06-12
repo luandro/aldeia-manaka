@@ -1,0 +1,47 @@
+{
+  "title": "Responsive Timeline",
+  "items": [
+    {
+      "id": "item-2016",
+      "year": "2016",
+      "title": "Major Milestone",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias debitis praesentium itaque veniam dolorum cupiditate asperiores optio beatae, qui perferendis ipsam odit modi nemo natus corrupti neque quos distinctio facilis?"
+    },
+    {
+      "id": "item-2015",
+      "year": "2015",
+      "title": "Innovation Launch",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quas, reiciendis quis sequi voluptatem consectetur adipisci accusamus hic vel vero ea ad iure! Natus, ipsum, enim aspernatur fugit voluptatibus similique?"
+    },
+    {
+      "id": "item-2012",
+      "year": "2012",
+      "title": "Growth Phase",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, expedita. Dolorem blanditiis, delectus omnis eos accusamus mollitia et cupiditate officia maxime vel, nesciunt alias eius, quibusdam in ea eveniet ut!"
+    },
+    {
+      "id": "item-2010",
+      "year": "2010",
+      "title": "Foundation",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptas voluptatum dolorum, quibusdam dignissimos animi pariatur laboriosam quis explicabo similique aperiam debitis quam velit quod, reprehenderit harum ratione. Iste, unde?"
+    },
+    {
+      "id": "item-2008",
+      "year": "2008",
+      "title": "Early Development",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet inventore odit placeat in laboriosam dolore ducimus vero, sapiente ipsam veritatis, numquam libero itaque dolores natus ex aliquam nam nihil cumque."
+    },
+    {
+      "id": "item-2007",
+      "year": "2007",
+      "title": "Research Phase",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit sequi nobis, blanditiis quae dolorem quasi reiciendis odio qui fugit? Officiis quos aspernatur mollitia dolorum pariatur repellendus quaerat dolorem magnam quo."
+    },
+    {
+      "id": "item-2004",
+      "year": "2004",
+      "title": "Initial Concept",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel corporis sunt nostrum velit quibusdam neque porro ratione quos dolor libero. Tempore consequatur natus nostrum delectus provident fugiat corporis error ipsa."
+    }
+  ]
+}

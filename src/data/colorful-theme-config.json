@@ -1,0 +1,16 @@
+{
+  "name": "Colorful Pink",
+  "theme": {
+    "primaryColor": "#ed64a6",
+    "secondaryColor": "#f687b3",
+    "backgroundColor": "#fef5e7",
+    "textColor": "#ffffff",
+    "headerBackground": "#d53f8c",
+    "fontFamily": "Lato, sans-serif"
+  },
+  "animation": {
+    "duration": "1.0s",
+    "easing": "ease-out",
+    "staggerDelay": "200"
+  }
+}

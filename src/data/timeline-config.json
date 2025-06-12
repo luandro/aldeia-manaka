@@ -1,0 +1,16 @@
+{
+  "name": "Default Green",
+  "theme": {
+    "primaryColor": "#67CC8E",
+    "secondaryColor": "#56BC83",
+    "backgroundColor": "#faf8eb",
+    "textColor": "#ffffff",
+    "headerBackground": "#3d9e67",
+    "fontFamily": "Lato, sans-serif"
+  },
+  "animation": {
+    "duration": "0.7s",
+    "easing": "ease",
+    "staggerDelay": "100"
+  }
+}
