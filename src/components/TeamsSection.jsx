@@ -59,7 +59,7 @@ const TeamMember = ({ team = {}, index }) => {
 
           <div className="team-details">
             <div className="team-detail-item">
-              <div className="detail-icon">🎯</div>
+              {/* <div className="detail-icon">🎯</div> */}
               <div className="detail-content">
                 <h4>Responsabilidades</h4>
                 <p>{team.responsibilities || 'Responsabilidades a serem definidas'}</p>
@@ -67,7 +67,7 @@ const TeamMember = ({ team = {}, index }) => {
             </div>
 
             <div className="team-detail-item">
-              <div className="detail-icon">👤</div>
+              {/* <div className="detail-icon">👤</div> */}
               <div className="detail-content">
                 <h4>Perfil</h4>
                 <p>{team.profile || 'Perfil a ser definido'}</p>
