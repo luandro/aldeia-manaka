@@ -1,4 +1,4 @@
-const TimelineItem = ({ index, year, title, content, phase, status, critical, isVisible, animationDelay }) => {
+const TimelineItem = ({ year, title, content, phase, status, critical, isVisible, animationDelay }) => {
   const itemStyle = {
     animationDelay: animationDelay ? `${animationDelay}ms` : '0ms'
   };

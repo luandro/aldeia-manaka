@@ -73,7 +73,6 @@ const Timeline = ({ config }) => {
             {items.map((item, index) => (
               <TimelineItem
                 key={item.id || index}
-                index={index}
                 year={item.period || item.year}
                 title={item.title}
                 content={item.content}

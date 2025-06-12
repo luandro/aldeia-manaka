@@ -365,6 +365,17 @@ body {
   font-size: 0.95rem;
 }
 
+.no-teams-message {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 1.1rem;
+  background: rgba(74, 124, 78, 0.05);
+  border-radius: 20px;
+  border: 2px dashed rgba(74, 124, 78, 0.2);
+}
+
 /* Status Badges */
 .status-badge {
   display: inline-block;
@@ -436,6 +447,79 @@ body {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+/* Error Boundary Styles */
+.error-boundary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+}
+
+.error-content {
+  text-align: center;
+  max-width: 500px;
+  padding: 40px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(217, 83, 79, 0.2);
+}
+
+.error-content h2 {
+  color: #d9534f;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.error-content p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.error-button {
+  background: linear-gradient(135deg, #4a7c4e 0%, #2c5530 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(74, 124, 78, 0.3);
+}
+
+.error-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(74, 124, 78, 0.4);
+}
+
+.error-details {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.error-details summary {
+  cursor: pointer;
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.error-details pre {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #d9534f;
+  overflow-x: auto;
 }
 
 /* Timeline Section Styles */

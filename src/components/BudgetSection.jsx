@@ -9,10 +9,15 @@ const BudgetSection = ({ budget }) => {
               <div className="budget-icon">💰</div>
               <div className="budget-text">
                 {item.includes(':') ? (
-                  <>
-                    <strong>{item.split(':')[0]}:</strong>
-                    <span>{item.split(':')[1]}</span>
-                  </>
+                  (() => {
+                    const [category, ...rest] = item.split(':');
+                    return (
+                      <>
+                        <strong>{category}:</strong>
+                        <span>{rest.join(':')}</span>
+                      </>
+                    );
+                  })()
                 ) : (
                   <span>{item}</span>
                 )}

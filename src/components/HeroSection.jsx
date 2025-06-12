@@ -1,12 +1,24 @@
 import { useState, useEffect } from 'react';
 
-const HeroSection = ({ project }) => {
+const HeroSection = ({ project = {} }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
+    if (!project.heroImage) {
+      setImageLoaded(false);
+      return;
+    }
+
     const img = new Image();
     img.onload = () => setImageLoaded(true);
+    img.onerror = () => setImageLoaded(false); // Handle error case
     img.src = project.heroImage;
+
+    // Cleanup function to prevent memory leaks
+    return () => {
+      img.onload = null;
+      img.onerror = null;
+    };
   }, [project.heroImage]);
 
   return (
@@ -28,19 +40,19 @@ const HeroSection = ({ project }) => {
       </div>
       <div className="hero-content">
         <div className="hero-text">
-          <h1 className="hero-title">{project.title}</h1>
-          <p className="hero-subtitle">{project.subtitle}</p>
+          <h1 className="hero-title">{project.title || 'Projeto Aldeia Maiacá'}</h1>
+          <p className="hero-subtitle">{project.subtitle || 'Aldeia Multi-étnica do Povo Timbira'}</p>
           <div className="hero-dates">
             <span className="date-item">
-              <strong>Data de Início:</strong> {project.startDate}
+              <strong>Data de Início:</strong> {project.startDate || 'A definir'}
             </span>
             <span className="date-separator">|</span>
             <span className="date-item">
-              <strong>Data Alvo:</strong> {project.targetDate}
+              <strong>Data Alvo:</strong> {project.targetDate || 'A definir'}
             </span>
           </div>
-          <p className="hero-celebration">{project.celebration}</p>
-          <p className="hero-description">{project.description}</p>
+          <p className="hero-celebration">{project.celebration || 'Celebração em memória'}</p>
+          <p className="hero-description">{project.description || 'Um projeto dedicado à criação de uma aldeia multi-étnica.'}</p>
           <div className="hero-cta">
             <button className="hero-button">Saiba Mais</button>
           </div>
