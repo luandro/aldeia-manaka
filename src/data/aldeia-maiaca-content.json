@@ -1,0 +1,215 @@
+{
+  "project": {
+    "title": "PROJETO ALDEIA MAIACÁ",
+    "subtitle": "Aldeia Multi-étnica do Povo Timbira",
+    "startDate": "Junho 2025",
+    "targetDate": "9 de Abril de 2026",
+    "celebration": "Celebração do Luto de Bruno Braga",
+    "heroImage": "https://picsum.photos/1200/600?random=1",
+    "description": "Um projeto dedicado à criação de uma aldeia multi-étnica que reunirá os cinco povos Timbira (Krahô, Apinajé, Canela, Gavião e Krikati) em celebração à memória de Bruno Braga."
+  },
+  "teams": [
+    {
+      "id": "coordenador-geral",
+      "title": "Coordenador Geral do Projeto",
+      "responsibilities": "Coordenação geral, articulação entre todas as partes, gestão do cronograma, representação do projeto",
+      "profile": "Preferencialmente da família Braga ou pessoa de confiança indicada",
+      "image": "https://picsum.photos/300/200?random=2",
+      "status": "Pendente"
+    },
+    {
+      "id": "articulador-indigena",
+      "title": "Articulador Indígena",
+      "responsibilities": "Contato e coordenação com lideranças dos povos Timbira (Krahô, Apinajé, Canela, Gavião e Krikati)",
+      "profile": "Liderança indígena respeitada entre os povos Timbira",
+      "image": "https://picsum.photos/300/200?random=3",
+      "status": "Pendente"
+    },
+    {
+      "id": "responsavel-juridico",
+      "title": "Responsável Jurídico/Fundiário",
+      "responsibilities": "Verificação de documentação da terra, limites legais, articulação com FUNAI",
+      "profile": "Advogado com experiência em questões fundiárias e direito indígena",
+      "image": "https://picsum.photos/300/200?random=4",
+      "status": "Pendente"
+    },
+    {
+      "id": "coordenador-infraestrutura",
+      "title": "Coordenador de Infraestrutura",
+      "responsibilities": "Planejamento e execução de obras de infraestrutura (água, estrada, energia)",
+      "profile": "Engenheiro civil ou profissional com experiência em construções rurais",
+      "image": "https://picsum.photos/300/200?random=5",
+      "status": "Pendente"
+    },
+    {
+      "id": "especialista-recursos-hidricos",
+      "title": "Especialista em Recursos Hídricos",
+      "responsibilities": "Solução para abastecimento de água (profundidade dos aquíferos, alternativas ao rio contaminado)",
+      "profile": "Hidrogeólogo ou engenheiro ambiental",
+      "image": "https://picsum.photos/300/200?random=6",
+      "status": "Pendente"
+    },
+    {
+      "id": "coordenador-construcao-tradicional",
+      "title": "Coordenador de Construção Tradicional",
+      "responsibilities": "Orientar construção das casas tradicionais de cada povo Timbira",
+      "profile": "Anciãos ou conhecedores das técnicas construtivas tradicionais de cada etnia",
+      "image": "https://picsum.photos/300/200?random=7",
+      "status": "Pendente"
+    },
+    {
+      "id": "gestor-financeiro",
+      "title": "Gestor Financeiro",
+      "responsibilities": "Captação de recursos, gestão financeira, prestação de contas",
+      "profile": "Profissional com experiência em gestão de projetos sociais",
+      "image": "https://picsum.photos/300/200?random=8",
+      "status": "Pendente"
+    },
+    {
+      "id": "coordenador-comunicacao",
+      "title": "Coordenador de Comunicação e Mobilização",
+      "responsibilities": "Mobilização comunitária, comunicação do projeto, organização dos mutirões",
+      "profile": "Comunicador com sensibilidade cultural",
+      "image": "https://picsum.photos/300/200?random=9",
+      "status": "Pendente"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "fase-1",
+      "phase": "Fase 1",
+      "period": "Junho - Agosto 2025",
+      "title": "Preparação Legal e Mobilização",
+      "content": "Formação da equipe do projeto, verificação dos documentos da terra, primeiro contato com lideranças Timbira, reunião com FUNAI e organizações indígenas, definição dos limites seguros da propriedade, reunião geral com representantes de todas as etnias Timbira, planejamento do mutirão de reconhecimento, início da captação de recursos.",
+      "status": "Pendente",
+      "critical": false
+    },
+    {
+      "id": "fase-2",
+      "phase": "Fase 2",
+      "period": "Setembro - Outubro 2025",
+      "title": "Preparação do Terreno",
+      "content": "Mutirão de reconhecimento e limpeza do terreno, estudos para solução hídrica (análise dos aquíferos), planejamento da estrada de acesso, início da abertura/melhoria da estrada de acesso, perfuração de poço artesiano ou definição de alternativa para água, demarcação dos espaços para cada casa tradicional.",
+      "status": "Pendente",
+      "critical": true
+    },
+    {
+      "id": "fase-3",
+      "phase": "Fase 3",
+      "period": "Novembro 2025 - Janeiro 2026",
+      "title": "Infraestrutura Básica",
+      "content": "Conclusão da estrada de acesso, instalação do sistema de água, início da instalação elétrica (solar ou convencional), conclusão da infraestrutura elétrica básica, construção de estruturas de apoio (banheiros, cozinha comunitária), início da construção das casas tradicionais, continuação da construção das casas tradicionais, construção do espaço central para celebrações, preparação da estrutura da aldeia-escola.",
+      "status": "Pendente",
+      "critical": true
+    },
+    {
+      "id": "fase-4",
+      "phase": "Fase 4",
+      "period": "Fevereiro - Abril 2026",
+      "title": "Finalização e Preparação da Celebração",
+      "content": "Finalização das casas tradicionais dos cinco povos, acabamentos e detalhes culturais específicos, teste de todas as infraestruturas, preparação logística para a celebração, convites e mobilização das comunidades, ensaios e preparação cultural, últimos ajustes na aldeia.",
+      "status": "Pendente",
+      "critical": true
+    },
+    {
+      "id": "celebracao",
+      "phase": "Celebração",
+      "period": "9 de Abril de 2026",
+      "title": "CELEBRAÇÃO DO LUTO DE BRUNO BRAGA",
+      "content": "Inauguração oficial da Aldeia Maiacá, cerimônias tradicionais dos povos Timbira, abertura da aldeia para visitação.",
+      "status": "Pendente",
+      "critical": true
+    }
+  ],
+  "milestones": [
+    {
+      "id": "docs-fundiarios",
+      "milestone": "Documentação fundiária aprovada",
+      "deadline": "31/07/2025",
+      "responsible": "Responsável Jurídico",
+      "status": "Pendente"
+    },
+    {
+      "id": "acordo-liderancas",
+      "milestone": "Acordo com todas lideranças Timbira",
+      "deadline": "31/08/2025",
+      "responsible": "Articulador Indígena",
+      "status": "Pendente"
+    },
+    {
+      "id": "solucao-agua",
+      "milestone": "Solução de água definida e implementada",
+      "deadline": "30/11/2025",
+      "responsible": "Especialista em Recursos Hídricos",
+      "status": "Pendente"
+    },
+    {
+      "id": "estrada-acesso",
+      "milestone": "Estrada de acesso concluída",
+      "deadline": "30/11/2025",
+      "responsible": "Coordenador de Infraestrutura",
+      "status": "Pendente"
+    },
+    {
+      "id": "casas-tradicionais",
+      "milestone": "Todas as casas tradicionais construídas",
+      "deadline": "28/02/2026",
+      "responsible": "Coordenador de Construção Tradicional",
+      "status": "Pendente"
+    },
+    {
+      "id": "aldeia-pronta",
+      "milestone": "Aldeia pronta para celebração",
+      "deadline": "31/03/2026",
+      "responsible": "Coordenador Geral",
+      "status": "Pendente"
+    }
+  ],
+  "risks": [
+    {
+      "id": "agua",
+      "risk": "Dificuldade em encontrar água",
+      "impact": "Alto",
+      "probability": "Alta",
+      "mitigation": "Iniciar estudos hidrogeológicos imediatamente; considerar alternativas como captação de água da chuva"
+    },
+    {
+      "id": "documentacao",
+      "risk": "Atrasos na documentação fundiária",
+      "impact": "Alto",
+      "probability": "Média",
+      "mitigation": "Começar processo imediatamente; ter advogado dedicado"
+    },
+    {
+      "id": "mobilizacao",
+      "risk": "Dificuldade de mobilização das lideranças",
+      "impact": "Alto",
+      "probability": "Média",
+      "mitigation": "Envolver articulador indígena respeitado desde o início"
+    },
+    {
+      "id": "recursos",
+      "risk": "Falta de recursos financeiros",
+      "impact": "Alto",
+      "probability": "Alta",
+      "mitigation": "Diversificar fontes de financiamento; buscar apoio governamental e privado"
+    },
+    {
+      "id": "clima",
+      "risk": "Condições climáticas (chuvas)",
+      "impact": "Médio",
+      "probability": "Alta",
+      "mitigation": "Planejar construções principais para período seco"
+    }
+  ],
+  "budget": [
+    "Infraestrutura de Água: Perfuração de poço, sistema de distribuição",
+    "Estrada de Acesso: Terraplanagem, cascalho, drenagem",
+    "Energia: Sistema solar ou conexão à rede",
+    "Materiais de Construção: Para 5 casas tradicionais + estruturas de apoio",
+    "Mão de Obra Especializada: Quando necessário",
+    "Logística dos Mutirões: Alimentação, transporte",
+    "Celebração Final: Organização do evento de 09/04/2026",
+    "Contingência: 20% do valor total"
+  ]
+}

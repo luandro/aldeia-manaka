@@ -8,7 +8,7 @@ const Timeline = ({ config }) => {
 
   // Use config data or fallback to default
   const {
-    title = 'Responsive Timeline',
+    title = 'Cronograma do Projeto',
     items = [],
     theme = {},
     animation = {}
@@ -65,21 +65,28 @@ const Timeline = ({ config }) => {
   }, [theme, animation]);
 
   return (
-    <section className="timeline" ref={timelineRef}>
-      <h1>{title}</h1>
-      <ul>
-        {items.map((item, index) => (
-          <TimelineItem
-            key={item.id || index}
-            index={index}
-            year={item.year}
-            title={item.title}
-            content={item.content}
-            isVisible={visibleItems.has(index)}
-            animationDelay={animation.staggerDelay ? index * parseInt(animation.staggerDelay) : 0}
-          />
-        ))}
-      </ul>
+    <section className="timeline-section">
+      <div className="container">
+        <h2 className="section-title">{title}</h2>
+        <div className="timeline" ref={timelineRef}>
+          <ul>
+            {items.map((item, index) => (
+              <TimelineItem
+                key={item.id || index}
+                index={index}
+                year={item.period || item.year}
+                title={item.title}
+                content={item.content}
+                phase={item.phase}
+                status={item.status}
+                critical={item.critical}
+                isVisible={visibleItems.has(index)}
+                animationDelay={animation.staggerDelay ? index * parseInt(animation.staggerDelay) : 0}
+              />
+            ))}
+          </ul>
+        </div>
+      </div>
     </section>
   );
 };
