@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
+/* Use font-display: swap to avoid blocking render if offline */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 *,
 *::before,
@@ -1516,5 +1517,102 @@ body {
   .theme-option {
     padding: 10px 12px;
     font-size: 13px;
+  }
+}
+/* -------------------------------------------------------------------
+   Enhanced Mobile Hero Section Optimization
+   ------------------------------------------------------------------- */
+
+/* Mobile and Tablet Optimization */
+@media screen and (max-width: 768px) {
+  .hero-section {
+    /* Allow hero to grow with content instead of fixed viewport height */
+    height: auto !important;
+    min-height: auto !important;
+    
+    /* Align content to top with proper padding */
+    align-items: flex-start;
+    padding: 80px 20px 60px;
+  }
+
+  .hero-content {
+    padding: 0 !important;
+  }
+
+  .hero-text {
+    /* Full width on narrow screens for better text flow */
+    max-width: 100% !important;
+    margin: 0 auto;
+  }
+
+  .hero-dates {
+    /* Better wrapping for date items on mobile */
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .date-item {
+    /* Smaller padding for mobile */
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+
+  .date-separator {
+    /* Hide separator on very narrow screens if needed */
+    display: none;
+  }
+}
+
+/* Extra Small Mobile Devices */
+@media screen and (max-width: 480px) {
+  .hero-section {
+    /* Tighter padding for very small screens */
+    padding: 60px 15px 40px;
+  }
+
+  .hero-title {
+    /* More aggressive scaling for small screens */
+    font-size: clamp(2rem, 7vw, 3rem);
+    margin-bottom: 1rem;
+    line-height: 1.1;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1rem, 5vw, 1.4rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: clamp(0.9rem, 3.5vw, 1.1rem);
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+
+  .hero-celebration {
+    font-size: clamp(1rem, 4vw, 1.2rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-cta {
+    margin-top: 1.5rem;
+  }
+
+  .hero-button {
+    /* Slightly smaller button on very small screens */
+    padding: 14px 28px;
+    font-size: 1rem;
+  }
+
+  .hero-dates {
+    /* Stack date items vertically on very small screens */
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .date-item {
+    /* Full width date items on very small screens */
+    text-align: center;
+    min-width: 200px;
   }
 }
